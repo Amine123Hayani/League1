@@ -4,9 +4,9 @@
 
 - **Java 17**
 - **Spring Boot 3.2.2**
-- **Spring Data JPA**
-- **H2 Database (développement et tests)**
-- **Lombok**
+- **Spring Data JPA  optimise les performances avec Hibernate**
+- **H2 Database  développement et les tests, rapide et facile à configurer.**
+- **Lombok   Réduit le code répétitif en générant automatiquement getters, setters et constructeurs, rendant le code plus lisible**
 - **Maven Wrapper (exécution adminns installation de Maven)**
 
 ## Installation et exécution
