@@ -3,12 +3,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.ligue1</groupId>
-    <artifactId>Ligue1API</artifactId>
-    <version>1.2.0</version>
-    <name>Ligue1API</name>
-    <description>API de gestion des équipes et joueurs de Ligue 1</description>
-
+    <groupId>com.league1</groupId>
+    <artifactId>League1API</artifactId>
+    <version>1.3.1</version>
+    <name>League1API</name>
+    <description>API REST pour la gestion des équipes et joueurs de la Ligue 1 française.</description>
     <properties>
         <java.version>17</java.version>
         <spring.boot.version>3.2.3</spring.boot.version>
@@ -17,7 +16,7 @@
     </properties>
 
     <dependencies>
-        <!-- Spring Boot -->
+        <!-- Spring Boot - Gestion des services Web -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -38,7 +37,7 @@
             <scope>runtime</scope>
         </dependency>
 
-        <!-- Lombok pour réduire le code boilerplate -->
+        <!-- Lombok - Réduction du code boilerplate -->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
@@ -46,7 +45,7 @@
             <scope>provided</scope>
         </dependency>
 
-        <!-- Hibernate ORM -->
+        <!-- Hibernate - ORM pour la gestion des entités -->
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-core</artifactId>
@@ -60,7 +59,7 @@
             <version>2.3.0</version>
         </dependency>
 
-        <!-- Dépendances pour la gestion des logs -->
+        <!-- Log4J - Gestion avancée des logs -->
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-core</artifactId>
